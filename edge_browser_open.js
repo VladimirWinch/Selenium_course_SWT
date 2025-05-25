@@ -1,3 +1,5 @@
+// REPO link": https://github.com/VladimirWinch/Selenium_course_SWT.git
+
 
 const { Builder, Browser, By, until, Key } = require('selenium-webdriver');
 const edge = require('selenium-webdriver/edge');
