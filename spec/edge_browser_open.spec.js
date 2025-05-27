@@ -30,9 +30,18 @@ async function edgeTest() {
 
 
     try {
+        
         await driver.get('https://www.google.com');             // Открываем страницу
         let title = await driver.getTitle();                    // Проверяем заголовок
-        console.log('Заголовок страницы:', title);
+        console.log('Google', title);
+        // Автоматизация проверки:
+        const expectedTitle = "Google";
+        if (title === expectedTitle) {
+        console.log("Заголовок корректен!");
+        } else {
+        console.error(`Ошибка! Заголовок: "${title}", ожидалось: "${expectedTitle}"`);
+        }
+
 
         // Ищем поле поиска и вводим текст
         let searchBox = await driver.findElement(By.name('q'));
