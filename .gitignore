@@ -1,3 +1,10 @@
+
+# My additional folders / test cases (practice)
+tests_others/
+spec/google_search_test.spec.js
+# /file_name.js
+
+
 # Logs
 logs
 *.log

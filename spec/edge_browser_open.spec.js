@@ -36,6 +36,7 @@ async function edgeTest() {
 
         // Ищем поле поиска и вводим текст
         let searchBox = await driver.findElement(By.name('q'));
+//      location.reload();
         await searchBox.sendKeys('Selenium EdgeDriver', Key.RETURN);
 
         // Ждем результат
