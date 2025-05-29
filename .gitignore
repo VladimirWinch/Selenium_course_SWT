@@ -1,8 +1,10 @@
 
 # My additional folders / test cases (practice)
-tests_others/
-spec/google_search_test.spec.js
+# folder-name/
 # /file_name.js
+test-cases-others/
+/tmp_SWT.js
+
 
 
 # Logs

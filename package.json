@@ -1,3 +1,4 @@
+
 {
   "name": "selenium_course_swt",
   "version": "1.0.0",
@@ -8,10 +9,12 @@
   "license": "ISC",
 
   "dependencies": {
-    "node": "^20.19.2",
     "@types/selenium-webdriver": "^4.1.28",
+    "chai": "^5.2.0",
+    "chromedriver": "^137.0.0",
     "edgedriver": "^6.1.1",
-    "selenium-webdriver": "^4.33.0",
-    "mocha": "11.4.0"
+    "mocha": "^11.4.0",
+    "node": "^20.19.2",
+    "selenium-webdriver": "^4.33.0"
   }
 }
