@@ -24,7 +24,7 @@ async function edgeTest() {
     let service = new edge.ServiceBuilder(edgeDriverPath);      // Указываем путь
     let driver = await new Builder()
         .forBrowser(Browser.EDGE)
-        .setEdgeService(service)            // Подключаем сервис
+        .setEdgeService(service)  // Подключаем сервис
         .setEdgeOptions(options)
         .build();
 
@@ -41,7 +41,6 @@ async function edgeTest() {
         } else {
         console.error(`Ошибка! Заголовок: "${title}", ожидалось: "${expectedTitle}"`);
         }
-
 
         // Ищем поле поиска и вводим текст
         let searchBox = await driver.findElement(By.name('q'));

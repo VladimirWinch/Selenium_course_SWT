@@ -1,12 +1,14 @@
 // REPO link": https://github.com/VladimirWinch/Selenium_course_SWT.git
 
+// From test case: '2_log_admin_litecart_wo_checking'
+
 
 const { Builder, Capabilities, Browser, By, until, Key } = require('selenium-webdriver');
 const edge = require('selenium-webdriver/edge');
 const path = require('path');
 
 
-// Указываем явный путь к edgedriver из npm-пакета вручную (на всякий случай, если EdgeDriver не найден):
+// Указываем явный путь к edgedriver из npm-пакета вручную (на всякий случай, если edgedriver не найден):
 const edgeDriverPath = require('edgedriver').path;
 
 
